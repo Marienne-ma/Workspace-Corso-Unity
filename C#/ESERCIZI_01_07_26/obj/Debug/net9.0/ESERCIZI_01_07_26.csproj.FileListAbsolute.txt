@@ -1,0 +1,14 @@
+C:\Users\maria\source\repos\ESERCIZI_01_07_26\bin\Debug\net9.0\ESERCIZI_01_07_26.exe
+C:\Users\maria\source\repos\ESERCIZI_01_07_26\bin\Debug\net9.0\ESERCIZI_01_07_26.deps.json
+C:\Users\maria\source\repos\ESERCIZI_01_07_26\bin\Debug\net9.0\ESERCIZI_01_07_26.runtimeconfig.json
+C:\Users\maria\source\repos\ESERCIZI_01_07_26\bin\Debug\net9.0\ESERCIZI_01_07_26.dll
+C:\Users\maria\source\repos\ESERCIZI_01_07_26\bin\Debug\net9.0\ESERCIZI_01_07_26.pdb
+C:\Users\maria\source\repos\ESERCIZI_01_07_26\obj\Debug\net9.0\ESERCIZI_01_07_26.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maria\source\repos\ESERCIZI_01_07_26\obj\Debug\net9.0\ESERCIZI_01_07_26.AssemblyInfoInputs.cache
+C:\Users\maria\source\repos\ESERCIZI_01_07_26\obj\Debug\net9.0\ESERCIZI_01_07_26.AssemblyInfo.cs
+C:\Users\maria\source\repos\ESERCIZI_01_07_26\obj\Debug\net9.0\ESERCIZI_01_07_26.csproj.CoreCompileInputs.cache
+C:\Users\maria\source\repos\ESERCIZI_01_07_26\obj\Debug\net9.0\ESERCIZI_01_07_26.dll
+C:\Users\maria\source\repos\ESERCIZI_01_07_26\obj\Debug\net9.0\refint\ESERCIZI_01_07_26.dll
+C:\Users\maria\source\repos\ESERCIZI_01_07_26\obj\Debug\net9.0\ESERCIZI_01_07_26.pdb
+C:\Users\maria\source\repos\ESERCIZI_01_07_26\obj\Debug\net9.0\ESERCIZI_01_07_26.genruntimeconfig.cache
+C:\Users\maria\source\repos\ESERCIZI_01_07_26\obj\Debug\net9.0\ref\ESERCIZI_01_07_26.dll
