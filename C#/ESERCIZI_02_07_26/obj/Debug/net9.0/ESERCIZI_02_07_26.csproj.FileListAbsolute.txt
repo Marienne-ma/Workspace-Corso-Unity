@@ -12,3 +12,4 @@ C:\Users\maria\Desktop\Workspace Corso Unity\C#\ESERCIZI_02_07_26\obj\Debug\net9
 C:\Users\maria\Desktop\Workspace Corso Unity\C#\ESERCIZI_02_07_26\obj\Debug\net9.0\ESERCIZI_02_07_26.pdb
 C:\Users\maria\Desktop\Workspace Corso Unity\C#\ESERCIZI_02_07_26\obj\Debug\net9.0\ESERCIZI_02_07_26.genruntimeconfig.cache
 C:\Users\maria\Desktop\Workspace Corso Unity\C#\ESERCIZI_02_07_26\obj\Debug\net9.0\ref\ESERCIZI_02_07_26.dll
+C:\Users\maria\Desktop\Workspace Corso Unity\C#\ESERCIZI_02_07_26\obj\Debug\net9.0\ESERCIZI_02_07_26.sourcelink.json

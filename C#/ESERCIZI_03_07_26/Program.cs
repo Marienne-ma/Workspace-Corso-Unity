@@ -170,6 +170,9 @@ public class Program
 
         Console.WriteLine($"{(libro.Tipo == TipoLibro.Fumetti ? "È un Fumetto." : "Non è un Fumetto.")}");
 
+        //ESERCIZIO 5
+
+
 
 
     }
