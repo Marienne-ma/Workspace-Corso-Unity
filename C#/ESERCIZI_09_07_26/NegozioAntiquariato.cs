@@ -22,8 +22,7 @@ namespace ESERCIZI_09_07_26
            
                 string _codice = codice;
 
-                if (string.IsNullOrEmpty(_codice))
-                    goto Errore;
+                if (string.IsNullOrEmpty(_codice)) goto Errore;
 
                 _codice = _codice.Trim().Replace(" ", "");
 
@@ -31,14 +30,12 @@ namespace ESERCIZI_09_07_26
                 if (_codice == "") goto Errore;
 
                 if (_codice.StartsWith("ANT-")) goto Accettato;
-                else 
-                    goto Errore;
+                else goto Errore;
 
-            Accettato: Console.WriteLine($"Codice pulito e accettato: {_codice}");
-                continue;
+                Accettato: Console.WriteLine($"Codice pulito e accettato: {_codice}");
+                    continue;
                 
-
-            Errore: Console.WriteLine($"Codice non valido: {codice}");
+                Errore: Console.WriteLine($"Codice non valido: {codice}");
            
             }
         }
