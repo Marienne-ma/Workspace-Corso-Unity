@@ -18,12 +18,12 @@ public class Program
 
         //ESERCIZIO 2
         string[] codici =  {
-            " ANT-4922 ",
-            "ANT-1234",
-            "ABC-5678",
+            " ANT-6548411 ",
+            "ANT-1234145",
+            "ABC-5678241",
             "",
             null,
-            "ANT  -9999"
+            "ANT  -9569242"
         };
         NegozioAntiquariato negozioAntiquariato
             = new NegozioAntiquariato(codici);
