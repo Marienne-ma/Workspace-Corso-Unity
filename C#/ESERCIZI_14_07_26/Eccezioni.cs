@@ -14,16 +14,14 @@ namespace ESERCIZI_14_07_26
     {
         public LibroNonDisponibileException() { }
 
-        public LibroNonDisponibileException(string message)
-            : base(message) { }
+        public LibroNonDisponibileException(string message) : base(message) { }
     }
 
     public class DonazioneNonValidaException : Exception
     {
         public DonazioneNonValidaException() { }
 
-        public DonazioneNonValidaException(string message)
-            : base(message) { }
+        public DonazioneNonValidaException(string message) : base(message) { }
     }
 
 }
