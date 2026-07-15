@@ -11,24 +11,23 @@ namespace ESERCIZI_15_07_26
         public int Id { get; set; }
         public string Problema { get; set; }
         public string Dipendente { get; set; }
+        public DateTime DataTicket {  get; set; }
 
-        public DateTime Data {  get; set; }
 
-
-        public Ticket(int id, string problema, string dipendente, DateTime data)
+        public Ticket(int id, string problema, string dipendente, DateTime dataTicket)
         {
             Id = id;
             Problema = problema;
             Dipendente = dipendente;
-            Data = data;
+            DataTicket = dataTicket;
         }
-
 
         public void MostraTicket()
         {
-            Console.WriteLine($"Ticket: {Id}");
-            Console.WriteLine($"Dipendente: {Dipendente}");
-            Console.WriteLine($"Problema: {Problema}");
+            Console.WriteLine($"Ticket: {Id}, \ndata: {DataTicket.ToString("dd/MM/yyyy HH:mm:ss")} \nDipendente: {Dipendente}, \nproblema: {Problema}");
+
         }
+
+        public abstract void Priorita();
     }
 }
