@@ -13,15 +13,11 @@ namespace ESERCIZI_15_07_26
         public void AggiungiPagamento(IMetodoPagamento p)
         {
             pagamenti.Add(p);
-            Console.WriteLine("Metodo di pagamento aggiunto.");
         }
 
-        public void EseguiPagamenti(double importo)
+        public void EseguiPagamento(IMetodoPagamento metodo, double importo)
         {
-            foreach (var p in pagamenti)
-            {
-                p.Pagamento(importo);
-            }
+            metodo.Pagamento(importo);
         }
     }
 }

@@ -1,9 +1,12 @@
 ﻿using ESERCIZI_15_07_26;
+using System.Text;
 
 public class Program
 {
     static void Main(string[] args)
     {
+        Console.OutputEncoding = Encoding.UTF8;
+
         //ESERCIZIO 1
         GestorePagamenti gestore = new GestorePagamenti();
 
@@ -15,7 +18,20 @@ public class Program
         gestore.AggiungiPagamento(paypal);
         gestore.AggiungiPagamento(bonifico);
 
-        gestore.EseguiPagamenti(250);
+        gestore.EseguiPagamento(carta, 100);
+        gestore.EseguiPagamento(paypal, 250);
+        gestore.EseguiPagamento(bonifico, 500);
 
+
+        //ESERCIZIO 2
+        GestoreNemici gioco = new GestoreNemici();
+
+        Goblin goblin = new Goblin("Goblin", 50);
+        Drago drago = new Drago("Drago", 300);
+
+        gioco.AggiungiNemico(goblin);
+        gioco.AggiungiNemico(drago);
+
+        gioco.FaiAttaccareNemici();
     }
 }
