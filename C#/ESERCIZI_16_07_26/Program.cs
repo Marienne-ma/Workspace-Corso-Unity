@@ -110,7 +110,7 @@ class Program
         }
 
         Console.WriteLine();
-        Console.WriteLine("\nProdotti in saldo:");
+        Console.WriteLine("Prodotti in saldo:");
         
         var scontati = prodotti.Select(p =>
             $"Modello: {p.Modello} - Reparto: {p.Reparto} - Prezzo Originale: {p.PrezzoOriginale}€ - Prezzo Scontato: {(p.PrezzoOriginale * 0.80m):F2}€");
