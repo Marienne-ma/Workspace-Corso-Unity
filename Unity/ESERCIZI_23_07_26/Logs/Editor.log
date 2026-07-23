@@ -3231,3 +3231,12 @@ Shut down.
 AcceleratorClientConnectionCallback - disconnected - :0
 Cleanup mono
 CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000007544, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000007544, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 3508
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1784814796295,"processId":25656,"allocatedMemory":52636113,"memoryLabels":[{"Default":226137},{"Permanent":15516},{"NewDelete":72389},{"Thread":4197560},{"Manager":820549},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":857197},{"Material":12246},{"GfxDevice":55328},{"Animation":952},{"Audio":1544},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":175552},{"Input":45280},{"JobScheduler":256},{"TextLib":22306},{"Mono":48},{"MonoCode":128},{"ScriptingNativeRuntime":1694932},{"BaseObject":1806123},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":45575},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":10157},{"StaticString":3808},{"Utility":2673499},{"Curl":48},{"PoolAlloc":2360},{"AI":80},{"TypeTree":378184},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7384},{"WebRequest":7510},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33048836},{"Camera":17},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":777696},{"CoreStats":13688},{"Identifiers":6768},{"Gui":268270},{"EditorUtility":290555},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4604004},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35345},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3480},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
