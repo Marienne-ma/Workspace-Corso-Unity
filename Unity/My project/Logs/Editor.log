@@ -1,0 +1,459 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.4f1 (d550df8bd089) revision 13979871'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-maria" at "2026-07-23T10:47:03.4867525Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'it' Physical Memory: 16067 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-07-23T10:47:03Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.4f1\Editor\Unity.exe
+-projectpath
+C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-maria
+-hubSessionId
+b56b7ba7-6650-406b-8dae-fb12cd330ecb
+-accessToken
+n2fLu6eDAkEus4LGoxC4YcYShscYyIu8qBcmIvSqZGQ006f
+Successfully changed project path to: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project
+C:/Users/maria/Desktop/Workspace Corso Unity/Unity/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [14332]  Target information:
+
+Player connection [14332]  * "[IP] 192.168.187.228 [Port] 55504 [Flags] 2 [Guid] 3788017020 [EditorId] 3788017020 [Version] 1048832 [Id] WindowsEditor(7,Mary_pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14332] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14332] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-29140" after 0.6 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-maria"
+[Licensing::IpcConnector] LicenseClient-maria channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-maria-6000.5.4 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 24824)
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-maria-6000.5.4, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-maria-6000.5.4" at "2026-07-23T10:47:06.4995641Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 24824, path: "C:/Program Files/Unity/Hub/Editor/6000.5.4f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              9b579a44e6bc4e2e8e70ad917c9a8dca
+  Correlation Id:          184bc40b208bd650f30ca6d05357eea7
+  External correlation Id: 1298738908824853050
+  Machine Id:              mYxYd46YV2gbRS2uwSz1xzq4CrE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-maria-6000.5.4" (connect: 0.86s, validation: 0.32s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-maria-6000.5.4-notifications" at "2026-07-23T10:47:06.833921Z"
+[Licensing::Module] Connected to LicensingClient (PId: 24824, launch time: 0.01, total connection time: 1.19s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token n2fLu6eDAk...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 6872871841935-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.02
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 3.49s
+[Licensing::Module] Licensing is initialized (took 2.45s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 4 unused hashed content files
+Initialize engine version: 6000.5.4f1 (d550df8bd089)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/maria/Desktop/Workspace Corso Unity/Unity/My project/Assets
+[D3D12 Device Filter] Vendor Name: Intel
+[D3D12 Device Filter] Device Name: Intel(R) Iris(R) Xe Graphics
+[D3D12 Device Filter] Driver Version: 31.0.101.4502
+[D3D12 Device Filter] Feature Level: 12.1
+[D3D12 Device Filter] Graphics Memory: 8033 MB
+[D3D12 Device Filter] Processor Count: 12
+[D3D12 Device Filter] Device Type: Integrated
+[D3D12 Device Filter] D3D12 API denied by user filter: {"Vendor": "Intel", "Device Type:": Integrated}
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a1)
+    Vendor:   Intel
+    VRAM:     8033 MB
+    Driver:   31.0.101.4502
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.4f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002342 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.644 seconds
+Domain Reload Profiling: 1450ms
+	BeginReloadAssembly (183ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (497ms)
+		LoadAssemblies (177ms)
+		AnalyzeDomain (365ms)
+			TypeCache.Refresh (363ms)
+				TypeCache.ScanAssembly (343ms)
+	FinalizeReload (647ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (274ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 57 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.13 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.ai.navigation@42d896194035)
+    com.unity.collab-proxy@2.12.4 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.19.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83)
+    com.unity.timeline@1.8.12 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.visualscripting@1.9.11 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.visualscripting@8bed5ad90189)
+    com.unity.searcher@4.9.4 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.searcher@d45a78918735)
+    com.unity.burst@1.8.29 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.burst@6bb9aca3ef38)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.render-pipelines.universal@17.5.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@e38be786c41e)
+    com.unity.test-framework@1.7.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.test-framework@1405238725ab)
+    com.unity.ugui@2.5.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
+    com.unity.render-pipelines.core@17.5.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@539ef1c759fb)
+    com.unity.shadergraph@17.5.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.shadergraph@636559dc59a3)
+    com.unity.render-pipelines.universal-config@17.5.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal-config@fdda01c80fe3)
+    com.unity.collections@6.5.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.collections@a43cabe808ca)
+    com.unity.mathematics@1.4.0 (location: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\Library\PackageCache\com.unity.mathematics@981956d94fb6)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 63.8854ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.4f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/maria/Desktop/Workspace Corso Unity/Unity/My project
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.5.4f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.5.4f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.5.4f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.5.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@6bb9aca3ef38\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 117.6643ms
+ExitCode: 0 Duration: 0s640ms
+[722/915    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.52 seconds), 1 items updated, 915 evaluated
+AssetDatabase: script compilation time: 1.992557s
+Total cache size 64331380
+Total cache size after purge 64331380, took 00:00:00.1276750
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 5.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.42 ms, found 4 plugins.
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.928 seconds
+Domain Reload Profiling: 5391ms
+	BeginReloadAssembly (316ms)
+		DisableScriptedObjects (40ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (13ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (1028ms)
+		LoadAssemblies (558ms)
+		AnalyzeDomain (466ms)
+			TypeCache.Refresh (354ms)
+				TypeCache.ScanAssembly (339ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (3930ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (2915ms)
+			ProcessInitializeOnLoadMethodAttributes (265ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Starting new worker id: 0 with log in C:/Users/maria/Desktop/Workspace Corso Unity/Unity/My project/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=18887e2cf1e617c40ae07ccc585dc154): Total: 8.496 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=4676 ms
+		Asset DB Callback time: managed=133 ms, native=67 ms
+		Scripting: domain reloads=1, domain reload time=1535 ms, compile time=1994 ms, other=88 ms
+		Project Asset Count: scripts=1309, non-scripts=2262
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 69.434ms
+	ApplyChangesToAssetFolders: 0.858ms
+	Scan: 182.446ms
+	Collect global state as custom dependencies: 5.035ms
+	CategorizeScriptCompilationAssets: 96.039ms
+	ProcessAssetsWithTransientArtifactChanges: 114.871ms
+	CategorizeAssets: 59.061ms
+	CompileScripts: 1994.320ms
+	ImportOutOfDateAssets: 4034.349ms (3960.939ms without children)
+		UnloadImportedAssets: 1.147ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.885ms
+		ImportSchedulerStart: 71.331ms
+	PostProcessAllAssets: 133.962ms
+		MonoPostProcessAllAssets: 133.877ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 47.491ms
+			SyncVS.PostprocessSyncProject 9.199ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 6.614ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.624ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 4.152ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.194ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.687ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.682ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.506ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.459ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.425ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.313ms
+	UnloadStreamsBegin: 3.259ms
+	PersistCurrentRevisions: 0.229ms
+	GenerateScriptTypeHashes: 1.724ms
+	GenerateScriptTypeSerializationHashes: 3.105ms
+	Untracked: 1793.706ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Scanning for USB devices : 2.347ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            21.545 ms
+	Integration:            297.633 ms
+	Integration of assets:  0.077 ms
+	Thread Wait Time:       0.607 ms
+	Total Operation Time:   319.861 ms
+Unloading 6439 unused Assets / (5.6 MB). Loaded Objects now: 7405.
+Memory consumption went from 407.0 MB to 401.4 MB.
+Total: 26.696100 ms (FindLiveObjects: 1.481600 ms CreateObjectMapping: 4.828600 ms MarkObjects: 10.701400 ms  DeleteObjects: 9.680600 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/maria/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+<RI> Initializing input.
+Using Windows.Gaming.Input
+[Project] Loading completed in 17.985 seconds
+	Project init time: 				15.379 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		3.034 seconds
+		Asset Database init time: 		0.640 seconds
+		Global illumination init time: 	0.005 seconds
+		Assemblies load time: 			1.529 seconds
+		Unity extensions init time: 	0.055 seconds
+		Asset Database refresh time: 	8.497 seconds
+	Scene opening time: 			2.114 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1784803641457,"processId":29140,"projectLoad":17.9846933,"projectInit":15.3785045,"templateInit":0.0,"packageManagerInit":3.034094,"assetDatabaseInit":0.6404282,"globalIlluminationInit":0.0045476,"assembliesLoad":1.5285268,"unityExtensionsInit":0.0550294,"assetDatabaseRefresh":8.4966647,"sceneOpening":2.1142678}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1784803641457,"processId":29140,"editorVersion":"6000.5.4f1 (d550df8bd089)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Worker ready: AssetImportWorkerHW0 0
+Couldn't find a readme
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ReadmeEditor:SelectReadme () (at Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs:90)
+ReadmeEditor:SelectReadmeAutomatically () (at Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs:58)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs Line: 90)
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/maria/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.048s, timestamps: [21.135 - 21.183]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "n2fLu6eD"... (expires: 2026-07-23T11:48:52Z)
+[Licensing::Client] Successfully resolved entitlement details
+Starting new worker id: 1 with log in C:/Users/maria/Desktop/Workspace Corso Unity/Unity/My project/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '58ec9380dfb73254587bc34f455aa195') in 0.1874397 seconds
+[Worker0] Imported GUID: fa69697be3070b04a893666f5947f18c - Path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Runtime UI Resources/RuntimeDebugWindow_PanelSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8fdf73ad8c579a28f0770ab6ad642e59') in 0.1698721 seconds
+UPID Received '4191f0f0-0e5f-451d-bb93-48fab58420a8'.
+[Licensing::Client] Successfully resolved entitlement details
+Worker ready: AssetImportWorkerHW1 1
+Asset Pipeline Refresh (id=d19f7630b7344604697403f3021c680d): Total: 0.189 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity' with importer (DefaultImporter)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '66561c77a691b0475212204306953c01') in 0.012 seconds [static dependencies only]. Details - ImportResultOutputID=378ca25c6c95e370f41ed482e616ed68 DependenciesID=ccb60c188172c8f1e4dbd196f62aa2e3 StaticDependenciesID=8b1f1804ebbf13084f6d1979ce8c47df 
+Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
+Asset Pipeline Refresh (id=298554121ecdc2e4e93e3342460131e6): Total: 0.276 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Request Asset Garbage Collect because used heap size increased from 402.5 MB to 0.65 GB, exceeding the threshold of 256.0 MB.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 249 unused Assets / (17.3 MB). Loaded Objects now: 8652.
+Memory consumption went from 0.65 GB to 0.63 GB.
+Total: 32.143800 ms (FindLiveObjects: 0.583200 ms CreateObjectMapping: 1.348500 ms MarkObjects: 22.361000 ms  DeleteObjects: 7.848500 ms)
+
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=59680ff4cdbb5b44a970aa3736b53096): Total: 0.032 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=15dfd9607698f0d4dbca1bf4a889da66): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Scanning for USB devices : 5.862ms
+Scanning for USB devices : 3.394ms
+Scanning for USB devices : 2.609ms
+Scanning for USB devices : 4.418ms
+Scanning for USB devices : 4.649ms
+Asset Pipeline Refresh (id=ae846080fc28f0c458d163306d13d7dc): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 45211; Successful remaps: 18272
+Serialized file version minimum: 22, current 23
+[LAYOUT] About to save layout C:\Users\maria\Desktop\Workspace Corso Unity\Unity\My project\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/maria/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-maria-6000.5.4-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-maria-6000.5.4 channel disconnected successfully.
+Shut down.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 000000000000207C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000207C, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 3696
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1784804177476,"processId":29140,"allocatedMemory":52045657,"memoryLabels":[{"Default":200754},{"Permanent":15516},{"NewDelete":66117},{"Thread":4197560},{"Manager":820069},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":856798},{"Material":24},{"GfxDevice":55328},{"Animation":952},{"Audio":1544},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":47888},{"Input":45280},{"JobScheduler":256},{"TextLib":19030},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1574468},{"BaseObject":1675721},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":12912},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9791},{"StaticString":3808},{"Utility":2673499},{"Curl":48},{"PoolAlloc":2360},{"AI":80},{"TypeTree":18230},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7096},{"WebRequest":9899},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33052096},{"Camera":17},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":1030600},{"CoreStats":13688},{"Identifiers":6768},{"Gui":267736},{"EditorUtility":262520},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4603461},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35345},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3480},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
